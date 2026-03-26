@@ -9,7 +9,7 @@ public class App {
         Scanner sc = new Scanner(System.in);
         Integer opcao = 0;
         while(opcao != 6){
-            
+            //      
             System.out.println("Este é um CRUD de alunos! Digite 1 para cadastrar\nDigite 2 para mostrar"); 
             opcao = sc.nextInt();
             switch (opcao) {
@@ -29,7 +29,7 @@ public class App {
             }
         }
     }
-
+    
     public static void cadastrar(){
         Scanner sc = new Scanner(System.in);
         Aluno aluno = new Aluno();  
